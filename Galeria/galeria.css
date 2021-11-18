@@ -1,0 +1,18 @@
+
+.caja1{
+    float: left;
+    border: 3px solid rgb(66, 66, 66);
+    margin: 5px;
+    border-radius: 20px;
+}
+.caja2{
+    border-top: 3px solid rgb(66, 66, 66);
+    text-align: center;
+    border-radius: 20px;
+}
+
+img{
+    height: 340px;
+    width: 400px;
+    border-radius: 20px;
+}
