@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;   
+    grid-template-columns: auto auto auto auto;
+    grid-gap : 10px;
+}
+.grid-container > div{
+    background-color: rgb(230, 196, 250);
+    text-align: left;
+    border: solid rgb(114, 110, 110) 1px;
+    border-radius: 10px;
+    height: 370px;
+    box-shadow: 6px 6px 6px rgb(37, 37, 37);
+}
+h2{
+    padding-left: 10px;
+}
+p{
+    text-align: left;
+    font-family: Impact;
+    color: gray;
+    padding-left: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.item1{
+    grid-column: 1 /span 2;
+}
